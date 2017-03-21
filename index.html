@@ -1,11 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>第一個網站</title>
-</head>
-<body>
-  <h1>哈囉！！！　大家好　</h1>
+<html lang="zh-Hant-TW">
 
+<head>
+    <meta charset="UTF-8">
+    <title>佈景設計</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- container 頁面容器 -->
+    <div class="container">
+        <header id="Home">
+            <hgroup>
+                <h1>Wei Wei新娘秘書工作室</h1>
+                <h2>好的新秘帶你上天堂，爛的新秘乎你秋西郎（台語）</h2>
+            </hgroup>
+            <!-- 導覽列 -->
+            <nav>
+                <ul>
+                    <li><a href="#About">關於我們</a></li>
+                    <li><a href="#Service">服務項目</a></li>
+                    <li><a href="#Contact">聯繫我們</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="row">
+            <article>
+                <section id="About">
+                    <h3>關於我們</h3>
+                    <a href="#Home">Top</a>
+                    <h4>【緣起】</h4>
+                    <p>在早期年代台灣的婚紗攝影公司既爲新人們推出包含了整套系列的婚紗服務包套內容，以相片張數去決定包套內容，而拍婚紗照時所需要的彩妝造型變化就包含在套數內。有時我們可以要求婚紗公司送單妝(訂婚、結婚、歸寧)。不一看婚紗公司是否願意送妝。 但說實在的在冬天還好，如果像現在的炎炎夏日下，有時宴客又在晚上舉行，新娘子們往往因為皮膚出油而導致脫妝情形發生，甚至髮型也要很小心翼翼，因為只要一不小心風一吹就可能亂了。往往在一生只有一次的重要時刻裡，留下遺憾。</p>
+                    <h4>【願景】</h4>
+                    <p>新娘秘書是巧妝的魔法師 能讓您成為最閃亮的一顆星 讓工會結合大家的經歷，共創互助的平台。 工會使命. 技藝在身，受用一生。 核心價值. 一.永續學習，持續成長。</p>
+                    <p>從護理領域跨越彩妝造型時，每每接單後都回家大哭，非常的挫折，那時，給自己兩條路走：一是放棄、二是突破，所以我選擇了突破自己、創造自己，就算現在成為一位造型師，對於學生，在教學裡，我認真、用心也耐心，只希望她(他)們可以不用經歷挫敗的過程，因而失去對彩妝造型的熱誠。</p>
+                    <p>不敢說經歷有多豐富，但是在工作的過程中，我努力表現自己，將最好的東西呈現出來給我的客?---------新娘，打造完美又銘心的永恆回憶！</p>
+                    <p>也因為秉持著對彩妝和造型的熱愛，以最單純的信念，伴我服務過的新人，也期許在往後的造型生涯中，能不斷的自我要求，提升自己對流行時尚的感受力，為屬於我的麻豆們創造一個最難忘的角色！</p>
+                </section>
+                <section id="Service">
+                    <h3>服務項目</h3>
+                    <a href="#Home">Top</a>
+                    <ol>
+                        <li>婚宴種類：【訂婚】、【結婚】、【訂婚+結婚】、【歸寧宴客】</li>
+                        <li>婚宴時間：【午宴】、【晚宴】</li>
+                        <li>傳統儀式：【有】、【無】</li>
+                        <li>車馬費：通常只有外縣市會收費，有些則不收費。</li>
+                        <li>超時費：如有告知服務幾個小時，這超時費用要問清楚喔。</li>
+                    </ol>
+                </section>
+                <section id="Contact">
+                    <h3>聯繫我們</h3>
+                    <a href="#Home">Top</a>
+                    <form action="#">
+                        <div>
+                            <label>姓名：</label>
+                            <input type="text" name="user_name" placeholder="請輸入姓名">
+                        </div>
+                        <div>
+                            <label>姓別：</label>
+                            <input type="radio" name="user_sex" id="boy" value="先生">
+                            <label for="boy">先生</label>
+                            <input type="radio" name="user_sex" id="girl" value="女士">
+                            <label for="girl">女士</label>
+                        </div>
+                        <div>
+                            <label>問題類型：</label>
+                            <select name="q_type" id="">
+                                <option value="收費價格">收費價格</option>
+                                <option value="如何聯繫">如何聯繫</option>
+                                <option value="免費試妝">免費試妝</option>
+                                <option value="贈品方面">贈品方面</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>留言：</label>
+                            <textarea name="user_content" id="" cols="30" rows="10" placeholder="請輸入您的意見"></textarea>
+                        </div>
+                    </form>
+                </section>
+            </article>
+            <aside>
+                <figure>
+                    <img src="logo_2_school2015.png" alt="CK2">
+                    <figcaption>Wei Wei新娘秘書工作室
+                        <time datetime="2008-10-10Z+08:00">民國106年六月六日</time>
+                    </figcaption>
+                </figure>
+            </aside>
+        </div>
+        <footer>
+          Copyright © 2016 Wei Wei新娘秘書工作室
+        </footer>
+    </div>
 </body>
+
 </html>

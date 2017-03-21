@@ -1,0 +1,132 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /*background: #5ca4a9;*/
+    background: #5ca4a9 url('bg.jpg') center bottom /cover no-repeat fixed;
+    font-family: '微軟正黑體';
+    /* 
+    background: url('bg.png') right top /10% no-repeat fixed
+              , url('bg.png') right bottom /10% no-repeat fixed #123456;
+    */
+}
+
+.container {
+    width: 90%;
+    margin: 40px auto;
+    box-sizing: border-box;
+    padding: 0px 40px;
+}
+
+header#Home {
+    background: rgba(230, 235, 224, 0.5);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+hgroup {
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    padding: 20px 0px 10px;
+}
+
+h2 {
+    font-weight: normal;
+    margin: 10px auto 20px;
+}
+
+h3 {
+    border: 1px solid #ed6a5a;
+    border-left: 8px solid #ed6a5a;
+    background: #fff;
+    padding: 4px 10px;
+    display: inline-block;
+    margin: 30px auto 10px;
+}
+
+h4 {
+    margin: 20px auto 10px;
+}
+
+nav>ul {
+    list-style: none;
+    background: rgba(237, 106, 90, 0.8);
+    overflow: hidden;
+}
+
+nav>ul>li {
+    float: left;
+}
+
+nav>ul>li>a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+nav>ul>li>a:hover {
+    background: rgb(147, 78, 72);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.row {
+    background: rgba(230, 235, 224, 0.8);
+    display: table;
+}
+
+article {
+    display: table-cell;
+    width: 78%;
+    vertical-align: top;
+    padding: 40px;
+}
+
+aside {
+    display: table-cell;
+    width: 20%;
+    background: rgba(244, 241, 187, 0.5);
+    vertical-align: top;
+    padding: 20px;
+}
+
+p {
+    line-height: 2;
+}
+
+footer {
+    padding: 60px 0px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    background: rgba(92, 164, 169, 0.8);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/*
+.row {
+    background: rgba(230, 235, 224, 0.8);
+    overflow: hidden;
+}
+
+
+article{
+  float: left;
+  width: 78%;
+}
+
+aside{
+  float: right;
+  width: 20%;
+    background: rgb(147, 78, 72);
+}*/
